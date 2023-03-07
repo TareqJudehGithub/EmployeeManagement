@@ -26,3 +26,5 @@ E:\web\ASP_NET\Pioneers\Project\EmployeeManagement\EmployeeManagement\obj\Debug\
 E:\web\ASP_NET\Pioneers\Project\EmployeeManagement\EmployeeManagement\obj\Debug\net7.0\ref\EmployeeManagement.dll
 E:\web\ASP_NET\Pioneers\Project\EmployeeManagement\EmployeeManagement\bin\Debug\net7.0\appsettings.Production.json
 E:\web\ASP_NET\Pioneers\Project\EmployeeManagement\EmployeeManagement\bin\Debug\net7.0\EmployeeManagement.staticwebassets.runtime.json
+E:\web\ASP_NET\Pioneers\Project\EmployeeManagement\EmployeeManagement\obj\Debug\net7.0\EmployeeManagement.RazorAssemblyInfo.cache
+E:\web\ASP_NET\Pioneers\Project\EmployeeManagement\EmployeeManagement\obj\Debug\net7.0\EmployeeManagement.RazorAssemblyInfo.cs

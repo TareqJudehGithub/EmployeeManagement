@@ -15,3 +15,7 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = E:\web\ASP_NET\Pioneers\Project\EmployeeManagement\EmployeeManagement
 build_property._RazorSourceGeneratorDebug = 
+
+[E:/web/ASP_NET/Pioneers/Project/EmployeeManagement/EmployeeManagement/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

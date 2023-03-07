@@ -7,7 +7,7 @@ namespace EmployeeManagement.Controllers
     public class HomeController : Controller
     {
         #region Fields
-        // retrieve one employee by his/her Id
+        // retrieve one employee by his/her Id by creating an instance from IEmployeeRespository.
         private readonly IEmployeeRespository _employeeRespository;
         #endregion
 
@@ -29,35 +29,19 @@ namespace EmployeeManagement.Controllers
             return _employeeRespository.GetEmployee(103).Name;
         }
         // Custom routes/actions
-        public string Details()
-        // string action
+        public ViewResult Details()
         {
-
-            return "This is Details";
-        }
-
-        // JsonResult action
-        public JsonResult JsonDetails()
-        {
-            // return data of type Employee
-            Employee employee = _employeeRespository.GetEmployee(102);
-            // also works: var employee = _employeeRespository.GetEmployee(102);
-            return Json(employee);
-        }
-        public ObjectResult ObjectResultDetails()
-        // Object result action
-        {
-            Employee employee = _employeeRespository.GetEmployee(103);
-            return new ObjectResult(employee);
-        }
-        public ViewResult ViewResultsDetails()
-        {
-            // returns a view
             Employee employee = _employeeRespository.GetEmployee(101);
+
+            // ViewData[]
+            // ViewData[] stores dictionary type data in a string format.
+            ViewData["PageTitle"] = "Employee Details";
+            ViewData["Employee"] = employee;
+
             return View(employee);
+
+
         }
-
         #endregion
-
     }
 }

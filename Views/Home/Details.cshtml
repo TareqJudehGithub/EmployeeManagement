@@ -1,0 +1,35 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>@ViewData["PageTitle"]</title>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <section>
+            <h1>This is the Details View!</h1>
+
+            @{
+                // cast dictionary data type to Employee data type
+                var employee = ViewData["Employee"] as EmployeeManagement.Models.Employee;
+            }
+            <div>
+                <p>ID: @employee.Id</p>                
+            </div>
+            <div>
+                <p>Name: @employee.Name</p>
+            </div>
+            <div>
+                <p>Department: @employee.Department</p>
+            </div>
+            <div>
+                <p>Email: @employee.Email</p>
+            </div>
+
+        </section> 
+
+    </main>
+    <footer> </footer>
+
+</body>
+</html>
